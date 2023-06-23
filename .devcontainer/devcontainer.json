@@ -1,0 +1,12 @@
+{
+  "name": "Python 3",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["github.copilot", "github.copilot-labs"]
+    }
+  }
+}
